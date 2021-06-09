@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.26",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "HTNPlannerTrial",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"HTNPlanner"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HTNPlanner",
+			"Enabled": true
+		}
+	]
+}
